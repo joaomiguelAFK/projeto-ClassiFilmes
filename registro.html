@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Criar Conta - ClassiFilmes</title>
+  <link rel="Stylesheet" href="style.css"
+</head>
+<body>
+  <h1>ClassiFilmes</h1>
+  <h2>Criar uma Conta</h2>
+
+  <form method="post" action="/criar-conta">
+    <label>Nome completo:</label><br>
+    <input type="text" name="nome" required><br><br>
+
+    <label>E-mail:</label><br>
+    <input type="email" name="email" required><br><br>
+
+    <label>Nome de usuário:</label><br>
+    <input type="text" name="usuario" required><br><br>
+
+    <label>Senha:</label><br>
+    <input type="password" name="senha" required><br><br>
+
+    <label>Confirmar senha:</label><br>
+    <input type="password" name="confirmar_senha" required><br><br>
+
+    <input type="submit" value="Criar Conta">
+  </form>
+
+  <p>Já possui uma conta? <a href="login.html">Clique aqui para entrar</a>.</p>
+</body>
+</html>
