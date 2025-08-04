@@ -1,0 +1,74 @@
+header {
+   background-color: black;
+   padding: 0px;
+   text-align: center;
+   font-size: 24px;
+   margin-top: 0px;
+   font-family: sans-serif;
+}
+
+h1 {
+  color: #f2c510;
+  font-size: 50px;
+  margin-bottom: 20px;
+  height: 50px;
+  display: flex;
+  display: inline-block; 
+}
+
+nav ul {
+  text-decoration: none;
+  font-weight: bold;
+  margin: 0 15px;
+  display: flex;
+  cursor: pointer;
+  list-style: none;
+  padding: 10px;
+  justify-content: center;
+  gap: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #f2c510;
+  font-weight: bold;
+}
+
+ .filmes {
+      background-color: rgb(13, 13, 13);
+      border: 1px solid #000000;
+      width: 200px;
+      padding: 30px;
+      text-align: center;
+      border-radius: 10px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+  color: #ffffff;
+  font-size: 15px;
+  margin-top: -50px;
+}
+
+    p {
+  color: #030202;
+  font-size: 12px;
+  margin-top: 12px;
+  font-weight: bold;
+  text-align: center;
+  font-family: sans-serif;
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #f2c510;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+
+}
