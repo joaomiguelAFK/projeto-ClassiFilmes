@@ -16,7 +16,7 @@
     window.location.href = "login.html";
   });
 
-  document.querySelectorAll(".option a")[2].addEventListener('click', function (e) {
+  document.querySelectorAll(".option a")[2].addEventListener("click", function (e) {
     e.preventDefault();
     showMessage("Baixe o app na loja oficial.");
 
